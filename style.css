@@ -3,7 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 
-@layer utilities{
+@layer utilities {
   .icon{
       @apply w-6 md:w-fit bg-[#FFFFFF] md:size-9 size-6 rounded-full p-1;
   }
@@ -11,7 +11,7 @@
       @apply md:py-2 py-1.5 md:px-4 px-2 bg-[#F5F5F5] text-[#F44335] border border-[#F44335] md:border-[1px] md:text-[14px] text-[9px] md:font-semibold font-medium rounded-full hover:bg-red-700 hover:text-white hover:transition-all hover:scale-105 duration-300 ;
   }
   
-  }
+  
   .footer-card-2{
       @apply md:text-sm text-[7px]  md:mt-4 mt-3 text-gray-400 hover:text-red-500 transition-all  duration-300 cursor-pointer dark:hover:text-red-500  dark:text-gray-300;
   }
@@ -30,4 +30,10 @@
   .study-h4{
       @apply text-[12px] md:text-[15px] font-medium pt-2 md:pt-3 text-[#FFFFFF] ;
   }
+
+    .curve {
+        clip-path: ellipse(100% 100% at 50% 0%);
+         background-position: center top;
+    }
   
+}
